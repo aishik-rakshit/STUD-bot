@@ -2,22 +2,9 @@
 Repository for the project of Study concentration BOT
 
 
-WEEK 1
+Features:
 
-
- Make a VM in VMware based on Ubuntu 20.04 with 4 cores and 4 GB RAM( https://www.youtube.com/watch?v=9rUhGWijf9U )
- 
-
-Try to implement object detection models and benchmark on Coco Dataset ( https://dockship.io/challenges/5f46c0606e97bc51624cbab9/coco-lite-object-detection-ai-challenge/overview )
-
-
-YOLO v3 : https://github.com/eriklindernoren/PyTorch-YOLOv3 , https://machinelearningmastery.com/how-to-perform-object-detection-with-yolov3-in-keras/ 
-
-
-YOLO v5 : https://colab.research.google.com/drive/1gDZ2xcTOgR39tGGs-EZ6i3RTs16wmzZQ 
-
-
-SSD Retinanet or SSD Mobilenet : https://www.analyticsvidhya.com/blog/2020/04/build-your-own-object-detection-model-using-tensorflow-api/ 
-
-
-Target : 10 FPS 95%ile min and less than 10% of RAM and CPU on VM
+1. Drowsiness detection : Using the Dlib library and using the 6 facial landmarks of the eye using a threshold while calculating the Eye Aspect Ratio
+2. Mobile Phone Detection: Using YoloV3 pretrained on MS-COCO. Pretrained model with weights from Pjreddie Darknet.
+3. Website Alert: Flask server with chrome extensionm that gives us an alert when ever a preflagged website is visited.
+4. Break Timer: Setting a timer for breaks whenever user in not detected in fromnt of laptop.
